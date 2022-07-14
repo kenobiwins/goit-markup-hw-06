@@ -455,6 +455,7 @@
             </ul>
           </address>
         </div>
+        <!-- join us -->
         <div class="join-us">
           <h2 class="title-item footer-title">присоединяйтесь</h2>
           <ul class="social-list-footer">
@@ -488,6 +489,7 @@
             </li>
           </ul>
         </div>
+        <!-- subscribe -->
         <div class="subscribe">
           <h2 class="title-item footer-title">Подпишитесь на рассылку</h2>
           <form class="form">
@@ -504,6 +506,8 @@
         </div>
       </div>
     </footer>
+
+    <!-- modal window -->
     <div class="backdrop is-hidden" data-modal>
       <div class="modal">
         <button class="button-modal" type="button" data-modal-close>
@@ -511,9 +515,11 @@
             <use href="./images/icon-svg.svg#icon-close"></use>
           </svg>
         </button>
+          <!-- form  -->
         <form class="form" autocomplete="off">
           <h2 class="title-form">Оставьте свои данные, мы вам перезвоним</h2>
           <div class="form-field-wrapper">
+            <label class="form-field-label" for="user-name">Имя</label>
             <input
               type="text"
               name="user-name"
@@ -522,14 +528,12 @@
               required
               placeholder="Иван Иванов"
             />
-            <label class="form-field-label" for="user-name">Имя</label>
-            <span class="icon-form-field">
-              <svg class="icon" width="18px" height="18px">
+              <svg class="icon icon-form-field" width="18px" height="18px">
                 <use href="./images/icon-svg.svg#icon-person"></use>
               </svg>
-            </span>
           </div>
           <div class="form-field-wrapper">
+            <label class="form-field-label" for="user-number">Телефон</label>
             <input
               type="tel"
               name="user-number"
@@ -538,14 +542,12 @@
               placeholder="+380638888888"
               required
             />
-            <label class="form-field-label" for="user-number">Телефон</label>
-            <span class="icon-form-field">
-              <svg class="icon" width="18px" height="18px">
+              <svg class="icon icon-form-field" width="18px" height="18px">
                 <use href="./images/icon-svg.svg#icon-phone"></use>
               </svg>
-            </span>
           </div>
           <div class="form-field-wrapper">
+            <label class="form-field-label" for="user-email">Почта</label>
             <input
               type="email"
               name="user-email"
@@ -554,12 +556,9 @@
               required
               placeholder="example@gmail.com"
             />
-            <label class="form-field-label" for="user-email">Почта</label>
-            <span class="icon-form-field">
-              <svg class="icon" width="18px" height="18px">
+              <svg class="icon icon-form-field" width="18px" height="18px">
                 <use href="./images/icon-svg.svg#icon-email"></use>
               </svg>
-            </span>
           </div>
           <div class="form-field-wrapper">
             <label class="form-field-label" for="user-comment">Комментарий</label>
