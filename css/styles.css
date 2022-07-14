@@ -855,7 +855,3 @@ margin-left: auto;
 .license-agreement {
   color: var(--accent-color);
 }
-
-.checkbox-label:focus-visible {
-  outline: 1px red solid;
-}
