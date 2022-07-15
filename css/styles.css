@@ -814,6 +814,12 @@ margin-left: auto;
   left: 21px;
 }
 
+/* .checkbox-label:focus-within {
+  outline:var(--accent-color) 1px solid;
+  box-shadow: 0px 4px 4px 0px #00000040;
+} */
+
+
 .checkbox-label {
   display: flex;
   justify-content: center;
